@@ -1,0 +1,92 @@
+### Module positions - created on Tue Feb 14 13:11:26 2023 ###
+### Printed by Pcbnew version (6.0.9)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref          Val                   Package                    PosX       PosY       Rot  Side
+ARDUINO_NANO1                        ARDUINO_NANO           155.7656  -100.8661   90.0000  top
+C1             100nF                 1206                   133.5406  -131.3461   90.0000  top
+C2             100nF                 1206                   161.4806  -131.3461   90.0000  top
+C3             100nF                 1206                   127.8256  -105.3111    0.0000  top
+C4             100nF                 1206                   155.7656   -96.4211  180.0000  top
+C5             100nF                 1206                   106.8706   -72.9261   90.0000  top
+C6             100nF                 1206                   148.1456   -82.4511    0.0000  top
+C7             100nF                 1206                   122.7456   -81.1811    0.0000  top
+C8             100nF                 1206                   164.0206   -76.7361   90.0000  top
+C9             100nF                 1206                   171.0056  -104.0411  180.0000  top
+H1             MOUNT-HOLE4.1         4,1                    139.2556   -85.6261    0.0000  top
+H2             MOUNT-HOLE4.1         4,1                    139.2556  -122.4561    0.0000  top
+IC1            74HC165D              SO16                   127.8256  -117.3761  -90.0000  top
+IC2            74HC165D              SO16                   127.8256   -94.5161  -90.0000  top
+IC3            74HC165D              SO16                   120.2056   -74.1961    0.0000  top
+IC4            74HC165D              SO16                   146.8756   -74.1961    0.0000  top
+IC5            74HC165D              SO16                   171.0056   -90.7061   90.0000  top
+IC7            74HC165D              SO16                   171.0056  -116.1061   90.0000  top
+IC8            74HC165D              SO16                   176.0856  -132.6161    0.0000  top
+IC9            74HC165D              SO16                   148.1456  -132.6161    0.0000  top
+IC10           74HC165D              SO16                   120.2056  -132.6161    0.0000  top
+IC11           MAX485                SO08                   172.2756   -76.7361    0.0000  top
+L1             STATUS                LED-0603               181.1656   -76.7361    0.0000  top
+L2             Vcc                   LED-0603               177.3556   -76.7361    0.0000  top
+R1             10k                   RESISTORARRAY-0603     117.6656  -123.7261  -90.0000  top
+R2             10k                   RESISTORARRAY-0603     117.6656  -112.2961  -90.0000  top
+R3             10k                   RESISTORARRAY-0603     117.6656   -99.5961  -90.0000  top
+R4             10k                   RESISTORARRAY-0603     117.6656   -88.1661  -90.0000  top
+R5             10k                   RESISTORARRAY-0603     111.3156   -72.9261    0.0000  top
+R6             10k                   RESISTORARRAY-0603     130.3656   -72.9261    0.0000  top
+R7             10k                   RESISTORARRAY-0603     155.7656   -72.9261  180.0000  top
+R8             10k                   RESISTORARRAY-0603     137.9856   -72.9261    0.0000  top
+R9             10k                   RESISTORARRAY-0603     179.8956   -81.8161   90.0000  top
+R10            10k                   RESISTORARRAY-0603     179.8956   -99.5961   90.0000  top
+R11            10k                   RESISTORARRAY-0603     179.8956  -107.2161   90.0000  top
+R12            10k                   RESISTORARRAY-0603     179.8956  -124.9961   90.0000  top
+R13            10k                   RESISTORARRAY-0603     184.9756  -137.6961    0.0000  top
+R14            10k                   RESISTORARRAY-0603     167.1956  -137.6961    0.0000  top
+R15            10k                   RESISTORARRAY-0603     157.0356  -137.6961    0.0000  top
+R16            10k                   RESISTORARRAY-0603     139.2556  -137.6961    0.0000  top
+R17            10k                   RESISTORARRAY-0603     129.0956  -137.6961    0.0000  top
+R18            10k                   RESISTORARRAY-0603     111.3156  -137.6961    0.0000  top
+R19            1k                    R1206W                 155.7656  -109.7561  180.0000  top
+R20            1k                    R1206W                 155.7656  -104.6761  180.0000  top
+U$1                                  LUG-5MM                101.1556  -145.3161    0.0000  top
+U$2                                  LUG-5MM                195.1356  -145.3161    0.0000  top
+X1             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056  -129.4411  -90.0000  top
+X2             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056  -122.4561  -90.0000  top
+X3             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056  -115.4711  -90.0000  top
+X4             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056  -108.4861  -90.0000  top
+X5             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056  -101.5011  -90.0000  top
+X6             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056   -94.5161  -90.0000  top
+X7             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056   -87.5311  -90.0000  top
+X8             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   107.5056   -80.5461  -90.0000  top
+X9             TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   109.4106   -64.0361  180.0000  top
+X10            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   116.3956   -64.0361  180.0000  top
+X11            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   123.3806   -64.0361  180.0000  top
+X12            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   130.3656   -64.0361  180.0000  top
+X13            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   137.3506   -64.0361  180.0000  top
+X14            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   144.3356   -64.0361  180.0000  top
+X15            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   151.3206   -64.0361  180.0000  top
+X16            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   158.3056   -64.0361  180.0000  top
+X17            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856   -79.9111   90.0000  top
+X18            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856   -86.8961   90.0000  top
+X19            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856   -93.8811   90.0000  top
+X20            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856  -100.8661   90.0000  top
+X21            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856  -107.8511   90.0000  top
+X22            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856  -114.8361   90.0000  top
+X23            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856  -121.8211   90.0000  top
+X24            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   188.7856  -128.8061   90.0000  top
+X25            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   185.6106  -145.3161    0.0000  top
+X26            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   178.6256  -145.3161    0.0000  top
+X27            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   171.6406  -145.3161    0.0000  top
+X28            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   164.6556  -145.3161    0.0000  top
+X29            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   157.6706  -145.3161    0.0000  top
+X30            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   150.6856  -145.3161    0.0000  top
+X31            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   143.7006  -145.3161    0.0000  top
+X32            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   136.7156  -145.3161    0.0000  top
+X33            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   129.7306  -145.3161    0.0000  top
+X34            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   122.7456  -145.3161    0.0000  top
+X35            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   115.7606  -145.3161    0.0000  top
+X36            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   108.7756  -145.3161    0.0000  top
+X37                                  W237-132               192.5956   -66.5761  180.0000  top
+X38                                  W237-132               182.4356   -66.5761  180.0000  top
+X39            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   166.5606   -67.8461  180.0000  top
+X40            TERMINAL_2P_3,5MM_V2  TERMINAL_2P_3,5MM_V2   173.5456   -67.8461  180.0000  top
+## End
