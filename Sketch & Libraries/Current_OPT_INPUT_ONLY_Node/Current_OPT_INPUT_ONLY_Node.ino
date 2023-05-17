@@ -1,9 +1,17 @@
+/*
+  Project: Arduino Nano-based CMRI Input-Only SUSIC Node (72 inputs)
+  Author: Thomas Seitz (thomas.seitz@tmrci.org)
+  Version: 1.0.2
+  Date: 2023-05-17
+  Description: A sketch for an Arduino Nano-based CMRI Input-Only custom SUSIC Node board using RS-485
+*/
+
 // Import required libraries
 #include <Auto485.h>                                // Library for RS485 communication
 #include <CMRI.h>                                   // Library for CMRI communication
 #include <SPI.h>                                    // Library for SPI communication
 
-const byte CMRI_ADDR = 2;                           // Define CMRI node address
+const byte CMRI_ADDR = 5;                           // Define CMRI node address
 const byte DE_PIN = 2;                              // Define RS485 DE and RE pins on Arduino
 #define NOP __asm__ __volatile__("nop")             // "nop" assembly instruction macro
 
@@ -16,8 +24,8 @@ CMRI cmri(CMRI_ADDR, 72, 0, bus); // sets up a modified SMINI. 72 inputs, 0 outp
 byte last_input_state[9];                           // Define variable to store the previous state of inputs
 
 void setup() {
-  // Open the RS485 bus at 57600bps
-  bus.begin(57600, SERIAL_8N2);
+  // Open the RS485 bus at 19200bps
+  bus.begin(19200, SERIAL_8N2);
 
   // 74HC165 setup
   pinMode(LATCH_165, OUTPUT);
@@ -55,7 +63,4 @@ void loop() {
       cmri.set_byte(i, currentInputState[i]);
     }
   }
-
-  // Step 4: Wait for the next iteration
-  delay(1);
 }
